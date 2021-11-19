@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+
+    <ImageView
+        android:id="@+id/animImageaboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/km_icon" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animImageaboutus"
+        android:layout_above="@id/gmail_btn"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animImageaboutus"
+        android:layout_above="@id/gmail_btn"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+        android:id="@+id/tct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="K M Stores is an Indian retail stores, discount department stores, and grocery stores, K M Stores was founded in 2003 by Murugan K."
+        />
+    <TextView
+        android:id="@+id/tct2"
+        android:layout_below="@id/tct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Area served: Ashokpuram,Bengaluru. "/>
+
+    <TextView
+        android:id="@+id/tct3"
+        android:layout_below="@id/tct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Store Address: #12, 8th Cross, Ashokpuram, Yeshwanthpur, Bengaluru 560022."/>
+
+
+    <TextView
+        android:id="@+id/tct4"
+        android:layout_below="@id/tct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Serving people 17+ years"/>
+
+    <TextView
+        android:id="@+id/tct5"
+        android:layout_below="@id/tct4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Committed for best quality products, convenient products in lower quality, except more and pay less, we help you to make your life easier, we deliver groceries and more, We are always available for you, Wholesale price in retail. "/>
+
+
+    <TextView
+        android:id="@+id/tctadd"
+        android:layout_below="@id/tct5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+         android:text="Contact No: 9448722558, 8884879145"/>
+
+    <TextView
+        android:id="@+id/tct6"
+        android:layout_below="@id/tctadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic"
+        android:layout_margin="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="#FE251B"
+        android:textSize="15sp"
+        android:text="there's only one thing that matters, Customer satisfaction"/>
+
+
+  <!--  <TextView
+        android:id="@+id/tct7"
+        android:layout_below="@id/tct6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttoncurve"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="#FE251B"
+        android:textSize="15sp"
+        android:text="customer satisfaction."/>-->
+
+    </LinearLayout>
+</ScrollView>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gmail_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/whatsapp_btn"
+        android:text="GMAIL"
+        android:background="@drawable/buttoncurve"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#EA4335"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/whatsapp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttoncurve"
+        android:layout_above="@id/map_btn"
+        android:text="Whatsapp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#25D366"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="Directions to K M Stores"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttoncurve"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#4A89F3"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+
+</RelativeLayout>

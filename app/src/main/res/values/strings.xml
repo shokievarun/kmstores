@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">K M Stores</string>
+    <string name="safety_net_api_key">AIzaSyAl4i5rn8o-tdwy3Ioy2-gT3v4Hc_Ax_rg</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_seller_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="vpa">8884879145@sbi</string>
+    <string name="payee">Varun M</string>
+    <string name="transaction_description">For K M Stores</string>
+
+
+</resources>

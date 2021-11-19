@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellerLoginActivity">
+
+
+    <ImageView
+        android:id="@+id/img_seller_login"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/sellerlogin"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/title_seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Login"
+        android:gravity="center"
+        android:layout_below="@id/img_seller_login"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:textColor="#208000"/>
+
+    <EditText
+        android:id="@+id/email_seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/title_seller_login"
+        android:hint="Email..."
+        android:inputType="text"
+        android:textStyle="bold|italic"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/password_seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/email_seller_login"
+        android:hint="Password..."
+        android:textStyle="bold|italic"
+        android:inputType="textVisiblePassword"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/seller_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttoncurve"
+        android:layout_below="@id/password_seller_login"
+        android:text="Login"
+        android:textStyle="bold|italic"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:backgroundTint="#3b5998"
+        android:textSize="18dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminOrdersUserProductsActivity">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/r5242_products"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true">
+
+
+        <ImageView
+            android:id="@+id/back_arrow_admin_order_products"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_back_arrow_foreground"/>
+
+        <TextView
+            android:id="@+id/admin_item_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_aaoup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/r5242_products"
+        android:layout_margin="20dp"
+        android:backgroundTint="#d2d6d3"
+        android:background="@color/grey">
+
+
+        <TextView
+            android:id="@+id/order_store_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K M Stores"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/order_store_details2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#12, 8th Cross, Ashokpuram, Yeshwanthpur, Bengaluru 560022, Mob: 8884879145,9448722558."
+            android:layout_below="@+id/order_store_details"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/order_user_nameavup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" User Name"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/order_store_details2"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/order_user_phone_numberavup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Phone Number"
+            android:layout_below="@id/order_user_nameavup"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/order_user_address_cityavup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" User Address"
+            android:layout_below="@id/order_user_phone_numberavup"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/order_date_timeavup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date, Time"
+            android:layout_below="@id/order_user_address_cityavup"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/order_total_avup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Amount"
+            android:layout_below="@id/order_date_timeavup"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/order_extraavup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra items"
+            android:layout_below="@id/order_total_avup"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+
+        <TextView
+            android:id="@+id/order_transvup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID: "
+            android:layout_below="@id/order_extraavup"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linerar_layout_aaoup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_aaoup"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/grey"
+        android:background="#d2d6d3">
+
+
+        <TextView
+            android:textColor="@color/purple_500"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Items"
+
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate "
+            android:textColor="@color/purple_500"
+            android:layout_marginLeft="5dp"
+
+            android:textSize="12sp"
+            android:textStyle="italic"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+
+            android:textColor="@color/purple_500"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_marginRight="5dp"/>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/purple_500"
+            android:textSize="14sp"
+            android:textStyle="italic"
+
+            />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/admin_orders_itemlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linerar_layout_aaoup">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+</RelativeLayout>

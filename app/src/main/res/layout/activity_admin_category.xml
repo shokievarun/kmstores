@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/r111aca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/back_arrow_aca"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_back_arrow_foreground"/>
+
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/r111aca"
+        android:layout_marginTop="20dp"
+        android:text="Add new Product"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="26sp"
+      />
+
+    <TextView
+        android:id="@+id/daily_deals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/slogan_category"
+        android:text="Daily Deals"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/daily_deals"
+        android:text="Rice"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/oil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/rice"
+        android:text="Oils"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/masala_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/oil"
+        android:text="Masala Items"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/vegetables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/masala_items"
+       android:text="Vegetables"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/cosmetics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/vegetables"
+        android:text="Cosmetics"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/pulses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/cosmetics"
+        android:text="Pulses"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/biscuits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/pulses"
+        android:text="Biscuits"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/detergents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/biscuits"
+        android:text="Detergents"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/cool_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/detergents"
+        android:text="Cool Drinks"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/atta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/cool_drinks"
+        android:text="Atta"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/atta"
+        android:text="Books"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/extra_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/books"
+        android:text="Extra Items"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+
+    <TextView
+        android:id="@+id/id99"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/extra_item"
+        android:text="99"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/mrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/id99"
+        android:text="MRP"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+
+</RelativeLayout>

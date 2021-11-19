@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFinalOrderActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/back_arrow_confirm"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_back_arrow_foreground"/>
+
+        <TextView
+            android:id="@+id/total_price_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Optional Shipment Details"
+        android:textSize="18dp"
+        android:layout_below="@id/relativeconfirm"
+        android:textStyle="bold|italic"
+        android:textColor="@color/purple_200"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+       />
+
+    <EditText
+        android:id="@+id/shipment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="your Name"/>
+
+    <EditText
+        android:id="@+id/shipment_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="italic"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:hint="your Phone Number"/>
+
+    <EditText
+        android:id="@+id/shipment_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_phone_number"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="your Home Address"/>
+
+    <EditText
+        android:id="@+id/shipment_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_address"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="your City"/>
+
+    <EditText
+        android:id="@+id/add_extra_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shipment_city"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp"
+        android:layout_marginRight="20dp"
+        android:hint="drop a message if any extra items needed"/>
+
+
+
+    <TextView
+        android:id="@+id/transactiontxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_extra_items"
+        android:layout_marginTop="20dp"
+        android:text="Transaction ID:"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        />
+
+  <!--  <TextView
+        android:id="@+id/t_c_txtview_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="*skip this if you have updated your details in settings"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_above="@id/confirm_final_order_btn"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        />
+-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/confirm_final_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/purple_200"
+       android:layout_above="@id/t_c_txtview"
+        android:text="Confirm"
+        android:textStyle="bold|italic"
+        android:background="@drawable/buttoncurve"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/t_c_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="*Terms &amp; conditions some prices may vary"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        />
+
+
+
+
+
+</RelativeLayout>

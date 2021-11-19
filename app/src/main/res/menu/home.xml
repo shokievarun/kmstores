@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="search"
+        android:textStyle="bold|italic"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_qrcode"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_about_us"
+        android:title="QR Code"
+        android:textStyle="bold|italic"
+        app:showAsAction="ifRoom|collapseActionView" />
+   <!-- <item
+        android:id="@+id/action_category"
+        android:orderInCategory="100"
+        android:title="Category"
+        android:textStyle="bold|italic"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_all"
+        android:orderInCategory="100"
+        android:title="All"
+        android:textStyle="bold|italic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_daily_deals"
+        android:orderInCategory="100"
+        android:title="Daily Deals"
+        android:textStyle="bold|italic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:textStyle="bold|italic"
+        android:title="Rice"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_2"
+        android:orderInCategory="100"
+        android:textStyle="bold|italic"
+        android:title="Oils"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_3"
+        android:orderInCategory="100"
+        android:textStyle="bold|italic"
+        android:title="Vegetables"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_4"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        android:title="Pulses"
+        android:textStyle="bold|italic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_5"
+        android:orderInCategory="100"
+        android:textStyle="bold|italic"
+        android:title="Biscuits"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_6"
+        android:orderInCategory="100"
+        android:textStyle="bold|italic"
+        android:title="Cosmetics"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_7"
+        android:orderInCategory="100"
+        android:title="Detergents"
+        android:textStyle="bold|italic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_8"
+        android:orderInCategory="100"
+        android:title="Masala Items"
+        android:textStyle="bold|italic"
+        app:showAsAction="never" />-->
+</menu>

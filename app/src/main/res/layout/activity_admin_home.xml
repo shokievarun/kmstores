@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHomeActivity">
+
+
+    <TextView
+        android:id="@+id/admin_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textColor="@color/purple_200"
+
+        android:layout_marginTop="20dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/maintain_products_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/admin_welcome"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#090ddb"
+
+        android:background="@drawable/buttoncurve"
+        android:text="Maintain Products"
+        android:layout_marginBottom="15dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/maintain_products_btn"
+        android:background="@drawable/buttoncurve"
+        android:layout_marginRight="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#09db1e"
+        android:text="Check New Orders"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/check_and_approve_new_products_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/check_orders_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#e5ff00"
+        android:background="@drawable/buttoncurve"
+        android:textStyle="bold|italic"
+        android:text="Check and Approve New Products"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add__admin_products_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/check_and_approve_new_products_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#0398fc"
+        android:background="@drawable/buttoncurve"
+        android:textStyle="bold|italic"
+        android:text="Add New Products"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/admin_orders_backup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/add__admin_products_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/grey"
+        android:background="@drawable/buttoncurve"
+        android:textStyle="bold|italic"
+        android:text="Orders List"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/notification_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/admin_orders_backup_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#090ddb"
+
+        android:background="@drawable/buttoncurve"
+        android:text="Notification "
+        android:layout_marginBottom="15dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/generateqrcode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/notification_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#09db1e"
+
+        android:background="@drawable/buttoncurve"
+        android:text="Generate QR Code "
+        android:layout_marginBottom="15dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#ff0033"
+        android:background="@drawable/buttoncurve"
+        android:text="Logout"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

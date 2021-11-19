@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyOrderProductsActivity">
+
+    <RelativeLayout
+        android:id="@+id/r3my"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/back_arrow_my_orders_products"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_back_arrow_foreground"/>
+
+
+        <TextView
+            android:id="@+id/new_orders_txtViewmy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+
+
+
+    </RelativeLayout>
+
+
+  <!--  <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/download_pdf_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/r3my"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncurve"
+
+        android:text="Generate Bill"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#25D366"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+-->
+
+
+    <LinearLayout
+        android:id="@+id/linerar_layout_mopa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r3my"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/grey"
+        android:background="#d2d6d3">
+
+
+        <TextView
+            android:textColor="@color/purple_500"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Items"
+
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate "
+            android:textColor="@color/purple_500"
+            android:layout_marginLeft="5dp"
+
+            android:textSize="12sp"
+            android:textStyle="italic"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+
+            android:textColor="@color/purple_500"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_marginRight="5dp"/>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/purple_500"
+            android:textSize="14sp"
+            android:textStyle="italic"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/products_listmy"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/linerar_layout_mopa"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+</RelativeLayout>

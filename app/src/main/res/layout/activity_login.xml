@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logincart"
+    tools:context=".LoginActivity">
+
+  <TextView
+      android:id="@+id/kmtxtview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:fontFamily="cursive"
+      android:text="K M Stores"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+      android:textStyle="normal|bold" />
+
+ <!-- <TextView
+      android:id="@+id/storestxtview"
+      android:layout_below="@id/kmtxtview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:fontFamily="cursive"
+      android:text="Stores"
+      android:textColor="@color/black"
+      android:textSize="50sp"
+      android:textStyle="normal|bold" />-->
+
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/main_join_now_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/main_login_button"
+      android:layout_marginBottom="15dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:background="@drawable/input_design"
+      android:padding="20dp"
+      android:textStyle="bold|italic"
+      android:textAllCaps="false"
+      android:textSize="18dp"
+      android:text="Join Now"
+      android:textColor="@color/white"
+      />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv11"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:text="Already have an account? Login"
+        android:textColor="@color/white"
+/>
+
+
+
+  <!--<TextView
+      android:id="@+id/seller_begin_link"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Want to become a Seller?"
+      android:textSize="16sp"
+      android:textColor="@color/purple_200"
+      android:textStyle="bold|italic"
+      android:layout_alignParentEnd="true"
+      android:layout_above="@id/tv11"
+      android:layout_marginRight="19dp"
+
+      android:layout_marginBottom="10dp"/>-->
+
+  <TextView
+      android:id="@+id/tv11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/tv12"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:textSize="16sp"
+      android:textStyle="bold|italic"
+      android:text="All rights reserved by K M Integration"
+     android:textColor="@color/black"/>
+
+  <TextView
+      android:id="@+id/tv12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="10dp"
+      android:textStyle="bold|italic"
+      android:text="For any queries contact 8884879145"
+      android:gravity="center"
+      android:textColor="@color/black"/>
+
+
+</RelativeLayout>

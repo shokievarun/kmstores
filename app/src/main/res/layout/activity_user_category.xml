@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserCategoryActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativecategory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/back_arrow_category"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_back_arrow_foreground"/>
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/search_product_name_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:hint=" Search for Products"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:background="@drawable/buttoncurve"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+
+
+
+            android:drawableRight="@drawable/ic_search2"
+            android:ems="10" />
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/relativecategory"
+
+
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ScrollView android:layout_height="match_parent"
+            android:layout_width="100dp"
+            android:id="@+id/mainScroll"
+            android:scrollbars="none">
+
+
+        <LinearLayout
+             android:layout_width="100dp"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/txtviewcategory1"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:text="  All"
+              android:textColor="@color/black"
+              android:textStyle="italic"
+              android:layout_gravity="center"
+              android:background="@color/grey"
+
+              android:padding="5dp"
+            />
+
+            <TextView
+                android:id="@+id/txtviewcategory2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Aachi"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Atta"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+
+          <TextView
+              android:id="@+id/txtviewcategory4"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:text="  Biscuits"
+              android:textColor="@color/black"
+              android:textStyle="italic"
+              android:layout_gravity="center"
+              android:background="@color/grey"
+
+              android:padding="5dp"
+            />
+
+            <TextView
+                android:id="@+id/txtviewcategory5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Books"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Cosmetics"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txtviewcategory7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Juice"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Detergents"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Oils"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txtviewcategory10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Pulses"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Rice"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Vegetables"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Extras"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtviewcategory14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Daily deals"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+        </ScrollView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
